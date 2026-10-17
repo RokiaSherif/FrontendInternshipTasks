@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+}
+h2{
+    color: rgb(25, 25, 149);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0;
+    color: rgb(25, 25, 149);
+}
+.header h1{
+    margin-bottom: 0;
+}
+.about{
+    width: 90%;
+}
+.skills h3{
+    background-color: rgb(25, 25, 149);
+    color: white;
+   padding: 5px;
+   border-radius: 5px;
+}
+.timeline p{
+text-align: center;
+}
+.timeline table{
+    width: 100%;
+}
+.timeline table img{
+    width: 100px;
+}
+.contact button{
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+}
