@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #10213b;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 9%;
+  box-sizing: border-box;
+}
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+.navbar ul li {
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.navbar ul li:hover {
+  color: #a78bfa;
+}
+.container {
+  background-image: url("img1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 60px 8%;
+  box-sizing: border-box;
+  min-height: 520px;
+}
+.container .content {
+  color: white;
+  max-width: 650px;
+}
+.container .content h1 {
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.container .content p{
+  font-size: 20px;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+.container .content button{
+  background-color: #8b5cf6;
+  padding: 15px 35px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: ease-in-out .5s;
+}
+.container .content button:hover{
+  background-color: #6f55be;
+  transform: translateY(-3px);
+}
+.courses{
+  margin: 5% 11%;
+}
+.courses .boxes{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.courses .boxes .box{
+  border-radius: 15px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  transition: ease-in-out .5s;
+  margin-top: 15px;
+}
+.courses .boxes .box:hover{
+  transform: translateY(-10px);
+  box-shadow: 5px 5px 12px rgba(123, 121, 121, 0.9);
+}
+.courses .boxes .box h2{
+  color:#172b4d ;
+}
+.courses .boxes .box p{
+  color: #475569;
+  line-height: 1.6;
+}
+.courses .boxes .box button{
+  border: none;
+  background-color: transparent;
+  color: #a78bfa;
+  font-weight: 600;
+  font-size: 19px;
+  cursor: pointer;
+  transition: ease-in-out .5s;
+}
+.courses .boxes .box button:hover{
+  color: #49328c;
+}
+.courses .boxes .box .badge{
+  position: absolute;
+  left: 80%;
+  top: 20px;
+  background-color: #8b5cf6;
+  color: white;
+  text-align: center;
+  width: 40px;
+  padding: 7px 10px;
+  border-radius: 15px;
+}
+.footer{
+  background-color: #10213b;
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.footer h4{
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.footer p{
+  color: #828d9a;
+  margin-top: 0;
+}
